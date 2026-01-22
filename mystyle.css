@@ -1,0 +1,109 @@
+/* body {
+  background-color: lightblue; */
+  /* background-image: url(https://png.pngtree.com/thumb_back/fh260/background/20240522/pngtree-abstract-cloudy-background-beautiful-natural-streaks-of-sky-and-clouds-red-image_15684333.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+} */
+
+h1 {
+  color: rgba(0, 0, 0, 0.836);
+  margin-left: 20px;
+}
+/* .button{
+    background-color: rgba(255, 99, 71, 0.2);
+    color: white;
+    display: block;
+    margin: 0 auto;
+} */
+
+a.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: rgba(255, 99, 71, 0.8);
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin: 10px 5px;
+}
+form{
+   
+    border: 1px solid black;
+    border-radius: 15px;
+    width: fit-content;
+    margin: 0 auto;
+    padding: 20px;
+    position: relative;
+    align-items: center;
+   text-align: center;
+
+
+}
+
+form::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url('https://searchengineland.com/wp-content/seloads/2014/08/photos-images-pictures-ss-1920.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 0.5;
+    z-index: -1;
+    border: 4px solid black;
+    border-radius: 15px;
+    outline-style: dotted;
+    
+}
+
+
+
+form label {
+    display: inline-block;
+    width: 100px;
+    text-align: left;
+    margin-right: 10px;
+}
+form input[type="text"],
+form input[type="password"],
+form input[type="email"] {
+    display: inline-block;
+    margin-bottom: 10px;
+}
+label[for="name"]{
+    font-weight: bold;
+    color: white;
+}
+label[for="password"]{
+    font-weight: bold;
+    color: white;
+}
+label[for="email"]{
+    font-weight: bold;
+    color: white;
+}
+label[for="106"] {
+    color : white;
+    font-weight: bold;
+}
+div.student-form {
+
+    /* padding: 70px; */
+    border-radius: 15px;
+    align-items: center;
+}
+
+body {
+  background-color: lightblue;
+  display: flex;
+  justify-content: center;      /* Centers horizontally */
+  align-items: center;          /* Centers vertically */
+  min-height: 100vh;            /* Full screen height */
+  /* background-image: url(https://w7.pngwing.com/pngs/445/734/png-transparent-mythical-phoenix-watercolor-resplendent-flaming-phoenix-bird-thumbnail.png),url(https://w7.pngwing.com/pngs/445/734/png-transparent-mythical-phoenix-watercolor-resplendent-flaming-phoenix-bird-thumbnail.png); */
+    background-position: right bottom, left top;
+
+    background-repeat: no-repeat;
+}
+
